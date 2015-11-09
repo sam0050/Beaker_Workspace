@@ -138,6 +138,15 @@
                     "",
                     "",
                     "<body>",
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    "<h1 style=\"font-size: 70px; text-align: center;\"><br> <br> Test HTML Item Body</h1>",
+=======
+                    "<h1 style=\"font-size: 70px; text-align: center;\"><br> <br> MATT VOLZ RESUME!!</h1>",
+>>>>>>> parent of 350edf6... Change 1
+=======
+                    "<h1 style=\"font-size: 70px; text-align: center;\"><br> <br> MATT VOLZ RESUME!!</h1>",
+>>>>>>> parent of 350edf6... Change 1
                     "<div style=\"position: absolute; top: 0; left: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>",
                     "",
                     "<div style=\"position: absolute; top: 0; right: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>",
@@ -163,15 +172,14 @@
                     "</body>",
                     "",
                     "</html>"
-                ],
-                "hidden": true
+                ]
             },
             "output": {
                 "state": {},
                 "result": {
                     "type": "BeakerDisplay",
                     "innertype": "Html",
-                    "object": "<script>\nvar beaker = bkHelper.getBeakerObject().beakerObj;\n</script>\n\n<!--\n********** NOTICE **********\nThis domain is not for sale.\nPlease send complaints to info@sup3r.com\n-->\n\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>\n<script>\n\n\n\nfunction changecolors() {\n    setInterval(change, Math.random() * 500 + 100);\n}\n\nfunction change() {\n    color = \"#\" + Math.round(Math.random() * 1000000);\n    color2 = \"#\" + Math.round(Math.random() * 1000000);\n    \n    document.body.style.background = color;\n    $(\"h1\").css(\"color\", color2);\n}\n//changecolors();\nchange();\n</script>\n\n\n<script>\nwindow.onbeforeunload = function (e) {\n  var e = e || window.event;\n\n  // For IE and Firefox\n  if (e) {\n    e.returnValue = 'So am I hired or what???';\n  }\n\n  // For Safari\n  return 'So am I hired or what???';\n};\n</script>\n\n<title>Will B. Hired</title>\n\n\n\n\n\n\n\n<h1 style=\"font-size: 70px; text-align: center; color: rgb(133, 72, 98);\"><br> <br> Test HTML Item Body</h1>\n<div style=\"position: absolute; top: 0; left: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>\n\n<div style=\"position: absolute; top: 0; right: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>\n\n<div style=\"background-color:yellow; color:black; margin:20px; padding:20px;\">\n\n<h2 style=\"font-size: 40px; text-align: left;\"> <i><u>Objective:</u></i></h2>\n<!--\n<p style=\"font-size: 25px; text-align: left;\">\n$$$$$$$$$$$$$$$$$$$$$$$$$$$\n</p>\n\n<p style=\"font-size: 25px; text-align: left;\">\n2 get hired 4 tons of DOUGH!!!!!\n</p>\n\n<p style=\"font-size: 60px; text-align: center;\">\n$$$$$$$$$$$$$$$$$$$$$$$$$$$\n</p>\n-->\n</div> \n\n\n\n"
+                    "object": "<script>\nvar beaker = bkHelper.getBeakerObject().beakerObj;\n</script>\n\n<!--\n********** NOTICE **********\nThis domain is not for sale.\nPlease send complaints to info@sup3r.com\n-->\n\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>\n<script>\n\n\n\nfunction changecolors() {\n    setInterval(change, Math.random() * 500 + 100);\n}\n\nfunction change() {\n    color = \"#\" + Math.round(Math.random() * 1000000);\n    color2 = \"#\" + Math.round(Math.random() * 1000000);\n    \n    document.body.style.background = color;\n    $(\"h1\").css(\"color\", color2);\n}\n//changecolors();\nchange();\n</script>\n\n\n<script>\nwindow.onbeforeunload = function (e) {\n  var e = e || window.event;\n\n  // For IE and Firefox\n  if (e) {\n    e.returnValue = 'So am I hired or what???';\n  }\n\n  // For Safari\n  return 'So am I hired or what???';\n};\n</script>\n\n<title>Will B. Hired</title>\n\n\n\n\n\n\n\n<h1 style=\"font-size: 70px; text-align: center; color: rgb(41, 100, 80);\"><br> <br> MATT VOLZ RESUME!!</h1>\n<div style=\"position: absolute; top: 0; left: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>\n\n<div style=\"position: absolute; top: 0; right: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>\n\n<div style=\"background-color:yellow; color:black; margin:20px; padding:20px;\">\n\n<h2 style=\"font-size: 40px; text-align: left;\"> <i><u>Objective:</u></i></h2>\n\n<p style=\"font-size: 25px; text-align: left;\">\n$$$$$$$$$$$$$$$$$$$$$$$$$$$\n</p>\n\n<p style=\"font-size: 25px; text-align: left;\">\n2 get hired 4 tons of DOUGH!!!!!\n</p>\n\n<p style=\"font-size: 60px; text-align: center;\">\n$$$$$$$$$$$$$$$$$$$$$$$$$$$\n</p>\n\n</div> \n\n\n\n"
                 },
                 "selectedType": "BeakerDisplay",
                 "elapsedTime": 0
