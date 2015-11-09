@@ -1,0 +1,195 @@
+{
+    "beaker": "2",
+    "evaluators": [
+        {
+            "name": "Html",
+            "plugin": "Html",
+            "view": {
+                "cm": {
+                    "mode": "htmlmixed"
+                }
+            }
+        },
+        {
+            "name": "Latex",
+            "plugin": "Latex",
+            "view": {
+                "cm": {
+                    "mode": "stex"
+                }
+            }
+        },
+        {
+            "name": "IPython",
+            "plugin": "IPython",
+            "imports": "",
+            "supplementalClassPath": "",
+            "view": {
+                "cm": {
+                    "mode": "python"
+                }
+            },
+            "setup": "%matplotlib inline\nimport numpy\nimport matplotlib\nfrom matplotlib import pylab, mlab, pyplot\nnp = numpy\nplt = pyplot\nfrom IPython.display import display\nfrom IPython.core.pylabtools import figsize, getfigs\nfrom pylab import *\nfrom numpy import *\n"
+        },
+        {
+            "name": "JavaScript",
+            "plugin": "JavaScript",
+            "jsSetting2": "",
+            "jsSetting1": "",
+            "view": {
+                "cm": {
+                    "mode": "javascript",
+                    "background": "#FFE0F0"
+                }
+            }
+        },
+        {
+            "name": "R",
+            "plugin": "R",
+            "view": {
+                "cm": {
+                    "mode": "r"
+                }
+            }
+        }
+    ],
+    "cells": [
+        {
+            "id": "section001",
+            "type": "section",
+            "level": 1,
+            "title": "Hello Notebook",
+            "collapsed": false,
+            "evaluatorReader": false
+        },
+        {
+            "id": "code001",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "# This is a code cell.",
+                    "# Click below, on the 3rd line, then type some Python code (eg \"1+2\"), then click \"Run\".",
+                    ""
+                ]
+            },
+            "output": {
+                "selectedType": "BeakerDisplay",
+                "outputArrived": true,
+                "elapsedTime": 30,
+                "state": {}
+            },
+            "evaluatorReader": true,
+            "lineCount": 3
+        },
+        {
+            "id": "codeAI7XUX",
+            "type": "code",
+            "evaluator": "Html",
+            "input": {
+                "body": [
+                    "<html>",
+                    "<!--",
+                    "********** NOTICE **********",
+                    "This domain is not for sale.",
+                    "Please send complaints to info@sup3r.com",
+                    "-->",
+                    "<head>",
+                    "<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>",
+                    "<script>",
+                    "",
+                    "",
+                    "",
+                    "function changecolors() {",
+                    "    setInterval(change, Math.random() * 500 + 100);",
+                    "}",
+                    "",
+                    "function change() {",
+                    "    color = \"#\" + Math.round(Math.random() * 1000000);",
+                    "    color2 = \"#\" + Math.round(Math.random() * 1000000);",
+                    "    ",
+                    "    document.body.style.background = color;",
+                    "    $(\"h1\").css(\"color\", color2);",
+                    "}",
+                    "//changecolors();",
+                    "change();",
+                    "</script>",
+                    "",
+                    "",
+                    "<script>",
+                    "window.onbeforeunload = function (e) {",
+                    "  var e = e || window.event;",
+                    "",
+                    "  // For IE and Firefox",
+                    "  if (e) {",
+                    "    e.returnValue = 'So am I hired or what???';",
+                    "  }",
+                    "",
+                    "  // For Safari",
+                    "  return 'So am I hired or what???';",
+                    "};",
+                    "</script>",
+                    "",
+                    "<title>Will B. Hired</title>",
+                    "",
+                    "<link rel=\"shortcut icon\" href=\"favicon.ico\">",
+                    "</head>",
+                    "",
+                    "",
+                    "",
+                    "<body>",
+                    "<h1 style=\"font-size: 70px; text-align: center;\"><br> <br> MATT VOLZ RESUME!!</h1>",
+                    "<div style=\"position: absolute; top: 0; left: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>",
+                    "",
+                    "<div style=\"position: absolute; top: 0; right: 0;\"><img src=\"finger.gif\" width=\"150px\"></div>",
+                    "",
+                    "<div style=\"background-color:yellow; color:black; margin:20px; padding:20px;\">",
+                    "",
+                    "<h2 style=\"font-size: 40px; text-align: left;\" > <i><u>Objective:</u></i></h2>",
+                    "",
+                    "<p style=\"font-size: 25px; text-align: left;\">",
+                    "$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+                    "</p>",
+                    "",
+                    "<p style=\"font-size: 25px; text-align: left;\">",
+                    "2 get hired 4 tons of DOUGH!!!!!",
+                    "</p>",
+                    "",
+                    "<p style=\"font-size: 60px; text-align: center;\">",
+                    "$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+                    "</p>",
+                    "",
+                    "</div> ",
+                    "",
+                    "</body>",
+                    "",
+                    "</html>"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "BeakerDisplay",
+                    "innertype": "Html",
+                    "object": "<script>\nvar beaker = bkHelper.getBeakerObject().beakerObj;\n</script>\n\n<!--\n********** NOTICE **********\nThis domain is not for sale.\nPlease send complaints to info@sup3r.com\n-->\n\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>\n<script>\n\n\n\nfunction changecolors() {\n    setInterval(change, Math.random() * 500 + 100);\n}\n\nfunction change() {\n    color = \"#\" + Math.round(Math.random() * 1000000);\n    color2 = \"#\" + Math.round(Math.random() * 1000000);\n    \n    document.body.style.background = color;\n    $(\"h1\").css(\"color\", color2);\n}\n//changecolors();\nchange();\n</script>\n\n\n<script>\nwindow.onbeforeunload = function (e) {\n  var e = e || window.event;\n\n  // For IE and Firefox\n  if (e) {\n    e.returnValue = 'So am I hired or what???';\n  }\n\n  // For Safari\n  return 'So am I hired or what???';\n};\n</script>\n\n<title>Will B. Hired</title>\n\n\n\n\n\n\n\n\n"
+                },
+                "selectedType": "BeakerDisplay",
+                "elapsedTime": 0
+            },
+            "evaluatorReader": true,
+            "lineCount": 76
+        },
+        {
+            "id": "markdown188oO3",
+            "type": "markdown",
+            "body": [
+                "Beaker also supports JavaScript, Julia, Groovy, Ruby, Scala, Python3, Java, and Node. To add another language to this notebook, select **Notebook → Language manager** from the menu on top of the screen.",
+                "",
+                "For general help, see the tutorial notebook under **Help → Tutorial** notebook."
+            ],
+            "evaluatorReader": false,
+            "mode": "preview"
+        }
+    ],
+    "namespace": {}
+}
